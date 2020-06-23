@@ -1,0 +1,90 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><title>Avins Biology</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="{% static 'pure-min.css' %}" integrity="sha384-oAOxQR6DkCoMliIh8yFnu25d7Eq/PHS21PClpwjOTeU2jRSq11vu66rf90/cZr47" crossorigin="anonymous">
+<link href="{% static 'css.css' %}" rel="stylesheet">
+<style>
+    body {
+        padding: 20px;
+        font-family: 'Lato', sans-serif;
+        font-size: 16px;
+    }
+    .header {
+        text-align: center;
+    }
+    .profile {
+        width: 150px;
+    }
+    .profile-name {
+        margin-top: 5px;
+        font-size: 36px;
+    }
+    .content {
+        max-width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    p {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+    a {
+        color: #258cdb;
+        text-decoration: none;
+    }
+    a:hover {
+        color: #2571db;
+    }
+    h1 {
+        font-size: 28px;
+    }
+
+    .ytp-chrome-top {
+        display: none !important;
+    }
+
+    .embed {
+        position: relative;
+        padding-bottom: 56.25%;
+        height: 0;
+        overflow: hidden;
+        max-width: 100%;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    .embed iframe, .embed object, .embed embed {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+</style>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script src="Brian%20Yu_files/cbgapi.loaded_2" async=""></script><script src="Brian%20Yu_files/cbgapi.loaded_1" async=""></script><script src="Brian%20Yu_files/cbgapi.loaded_0" async=""></script><script type="text/javascript" async="" src="Brian%20Yu_files/analytics.js"></script><script async="" src="Brian%20Yu_files/js.js"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-123778931-1');
+</script>
+<style> .gc-bubbleDefault{background-color:transparent !important;text-align:left;padding:0 !important;margin:0 !important;border:0 !important;table-layout:auto !important}.gc-reset{background-color:transparent !important;border:0 !important;padding:0 !important;margin:0 !important;text-align:left}.pls-bubbleTop{border-bottom:1px solid #ccc !important}.pls-topTail,.pls-vertShimLeft,.pls-contentLeft{background-image:url(//ssl.gstatic.com/s2/oz/images/stars/po/bubblev1/border_3.gif) !important}.pls-topTail{background-repeat:repeat-x !important;background-position:bottom !important}.pls-vertShim{background-color:#fff !important;text-align:right}.tbl-grey .pls-vertShim{background-color:#f5f5f5 !important}.pls-vertShimLeft{background-repeat:repeat-y !important;background-position:right !important;height:4px}.pls-vertShimRight{height:4px}.pls-confirm-container .pls-vertShim{background-color:#fff3c2 !important}.pls-contentWrap{background-color:#fff !important;position:relative !important;vertical-align:top}.pls-contentLeft{background-repeat:repeat-y;background-position:right;vertical-align:top}.pls-dropRight{background-image:url(//ssl.gstatic.com/s2/oz/images/stars/po/bubblev1/bubbleDropR_3.png) !important;background-repeat:repeat-y !important;vertical-align:top}.pls-vert,.pls-tailleft,.pls-dropTR .pls-dropBR,.pls-dropBL,.pls-vert img{vertical-align:top}.pls-dropBottom{background-image:url(//ssl.gstatic.com/s2/oz/images/stars/po/bubblev1/bubbleDropB_3.png) !important;background-repeat:repeat-x !important;width:100%;vertical-align:top}.pls-topLeft{background:inherit !important;text-align:right;vertical-align:bottom}.pls-topRight{background:inherit !important;text-align:left;vertical-align:bottom}.pls-bottomLeft{background:inherit !important;text-align:right}.pls-bottomRight{background:inherit !important;text-align:left;vertical-align:top}.pls-tailtop,.pls-tailright,.pls-tailbottom,.pls-tailleft{display:none;position:relative}.pls-tailbottom,.pls-tailtop,.pls-tailright,.pls-tailleft,.pls-dropTR,.pls-dropBR,.pls-dropBL{background-image:url(//ssl.gstatic.com/s2/oz/images/stars/po/bubblev1/bubbleSprite_3.png) !important;background-repeat:no-repeat}.tbl-grey .pls-tailbottom,.tbl-grey .pls-tailtop,.tbl-grey .pls-tailright,.tbl-grey .pls-tailleft,.tbl-grey .pls-dropTR,.tbl-grey .pls-dropBR,.tbl-grey .pls-dropBL{background-image:url(//ssl.gstatic.com/s2/oz/images/stars/po/bubblev1/bubbleSprite-grey.png) !important}.pls-tailbottom{background-position:-23px 0}.pls-confirm-container .pls-tailbottom{background-position:-23px -10px}.pls-tailtop{background-position:-19px -20px}.pls-tailright{background-position:0 0}.pls-tailleft{background-position:-10px 0}.pls-tailtop{vertical-align:top}.gc-bubbleDefault td{line-height:0;font-size:0}.pls-topLeft img,.pls-topRight img,.pls-tailbottom{vertical-align:bottom}.pls-bottomLeft img,.bubbleDropTR,.pls-dropBottomL img,.pls-dropBottom img,.pls-dropBottomR img,.pls-bottomLeft{vertical-align:top}.pls-dropTR{background-position:0 -22px}.pls-dropBR{background-position:0 -27px}.pls-dropBL{background-position:0 -16px}.pls-spacertop,.pls-spacerright,.pls-spacerbottom,.pls-spacerleft{position:static !important}.pls-spinner{bottom:0;position:absolute;left:0;margin:auto;right:0;top:0}</style></head><body>
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <div class="header">
+          <img class="profile" src="{% static 'profile.jpg' %}">
+          <h1 class="profile-name">Avinash</h1>
+        </div>
+            <div class="content" style="text-align: center;">
+                <h1 id="spanning-tree">Biology</h1>
+                <p>Channel created to help rural puc students of biology who needs teaching in English as well as kannada. </p>
+                    <script src="{% static 'platform.js' %}" gapi_processed="true"></script>
+                <div class="embed"><iframe src="https://youtu.be/472kZ6lPjcQ" allowfullscreen="" frameborder="0"></iframe></div>
+                <p>See more of my videos on <a href="https://www.youtube.com/user/avinkushi">YouTube</a>.</p>
+            </div>
+      </div>
+    </main>
