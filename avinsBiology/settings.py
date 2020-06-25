@@ -25,7 +25,7 @@ SECRET_KEY = '1s93k=gi!751zb#(_y$m!87!)c+w6ckwjr7fp%gwzx(*)iauol'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['avinsbiology.herokuapp.com']
 
 
 # Application definition
